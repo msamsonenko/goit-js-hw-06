@@ -1,10 +1,6 @@
 //receive input value
 const inputString = document.getElementById("validation-input");
 
-console.log(inputString.value.length);
-// const requiredSymbols = document.querySelector('input[data-length="6"]');
-
-// console.log(typeof requiredSymbols);
 inputString.addEventListener("change", focusOff);
 
 function focusOff() {
