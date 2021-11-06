@@ -11,10 +11,8 @@ const showCategories = (pseudoArray) =>
 //get access to header text and category list length and print it in console
 const showItems = (pseudoArray) => {
 	for (const el of pseudoArray) {
-		const header = el.querySelector("h2").textContent;
-		const items = el.querySelector("ul").children;
-		console.log(`Category: ${header}`);
-		console.log(`Elements: ${items.length}`);
+		console.log(`Category: ${el.querySelector("h2").textContent}`);
+		console.log(`Elements: ${el.querySelector("ul").children.length}`);
 	}
 };
 
